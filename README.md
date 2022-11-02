@@ -1,24 +1,84 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello-Rails_back-end
 
-Things you may want to cover:
+This web application is the API that serves as the backend to the [Hello-react-front-end](https://github.com/assadounto/hello-rails-frontend.git)
 
-* Ruby version
 
-* System dependencies
+- Major: Ruby
+- Frameworks: `Rails`
+- Technologies: Git, Gitflow, Linters, Github, PostgreSql, Rubocop
 
-* Configuration
+## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-* Database creation
+### Prerequisites
+- Have a computer and internet connection
+- Have `Ruby` installed on your computer
+- Have `Rails` installed on your computer
+- Have a basic knowledge of `Ruby` and `OOP` concept
+- Have a basic knowledge of `Rails`
+- Have a general understanding of what testing is
+- Have `visual-studio code` or any other code editor installed on your computer.
 
-* Database initialization
+### Setup
+- In order to get a copy of this project you need to run ``` git clone https://github.com/assadounto/hello-react-frontend.git```
+- Then run ```cd hello-react-frontend ```
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### Install
+- Run the command bellow in your terminal to get all required files
+```
+bundle install
+```
 
-* Deployment instructions
+### Setup Database
+> To setup the database on your local machine run respectively the commands bellow:
+```
+ rails db:setup
+``` 
+```
+ rails db:migrate
+``` 
+```
+ rails db:seed
+```
+```
+ rails server
+```
 
-* ...
+
+### Run tests
+you can run one of the following command in your terminal
+1. Run testing
+```Ruby
+rspec
+```
+2. Run linters
+```Ruby
+> Rubocop --color
+> Rubocop -a
+```
+## Authors
+
+👤 **Rich Adu**
+
+- GitHub: 
+    - [assadounto](https://www.github.com/assadounto)
+- Twitter:
+    - [@adukyerer](https://www.twitter.com/adukyerer)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues/).
+## Show your support
+
+Give a ⭐️ if you like this project!
+## Acknowledgments
+
+- Hats off to the whole microverse community
+
+## 📝 License
+This project is [MIT](./LICENSE) licensed.

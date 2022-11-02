@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+ 
+# Create a ten random greetings
+10.times do
+  Greeting.create(
+    name: Faker::Name.name,
+    message: Faker::Lorem.sentence
+  )
+end
+
+
